@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.mobileComp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 30%;
+}
+
+.loginImg {
+  width: 65%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputEl {
+  width: 200px;
+  height: 28px;
+  margin: 10px;
+}
+
+.submitBtn {
+  padding: 8px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin: 5px;
+}
+
+.desktopComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginImg2 {
+  width: 400px;
+  height: 200px;
+}
+
+.loginPart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 991px) {
+  .mobileComp {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .desktopComp {
+    display: none;
+  }
+}

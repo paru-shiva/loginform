@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.mainSectionSmall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.mainImage {
+  width: 75%;
+}
+
+.shopnowButton {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.mainSectionBig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 20px;
+}
+
+@media (min-width: 991px) {
+  .mainSectionSmall {
+    display: none;
+  }
+  .mainImage {
+    width: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .mainSectionBig {
+    display: none;
+  }
+}

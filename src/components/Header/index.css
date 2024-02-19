@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.header-big {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  padding: 10px;
+}
+
+.logButton {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 15px;
+  margin: 0px 40px;
+}
+
+.logo {
+  height: 55px;
+  margin: 20px;
+  width: 250px;
+}
+
+.headerSmall {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .header-big {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .headerSmall {
+    display: none;
+  }
+}
+
+.upHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.downHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #e6f6ff;
+}
+
+.logoutImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.navIcon {
+  width: 30px;
+  height: 30px;
+}
